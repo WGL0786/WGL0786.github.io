@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Hello Friend</title>
+<title></title>
 <meta name="keywords" content="">
 <meta name="description" content="第1章 Java基础 1.1 重写和重载的区别 重写（Override）：方法名与参数名都一样，返回类型也一样。 重载（Overload）：方法名相同参数不同，返回类型也可以修改。 ​	总的来说，重写和重载都是 Java 中常用的方法定义方式，它们的区别在于是否改变方法的行为以及如何进行方法调用。重写强调子类对父类的覆盖和多态性，重载强调相同方法名但不同参数列表的重载和方法重载的方便性。
 1.2 String 和 StringBuffer、StringBuilder 的区别是什么，String 为什么是不可变的 String 类是不可变的，即一旦创建就不能被修改。而 StringBuffer 和 StringBuilder 是可变的，可以进行修改操作。 String 类是线程安全的，可以在多线程环境下被共享。StringBuffer 也是线程安全的，支持多线程并发操作。而 StringBuilder 则是非线程安全的，适合单线程环境下的操作。 String 类的拼接操作（使用&#43;连接多个字符串）会创建新的String对象，导致内存消耗较大。而 StringBuffer 和 StringBuilder 的拼接操作则是直接在原有的对象上进行修改，不会创建新的对象，因此更加高效。 String 类的内部实现采用了字符数组的形式存储，而 StringBuffer 和 StringBuilder 的内部实现则采用了字符数组和可变容量缓冲区的形式存储，使得它们更加高效地支持字符串的修改操作。 ​	关于为什么 String 是不可变的，主要是为了保证字符串常量的安全性和不可更改性。如果 String 是可变的，那么任何一个持有该字符串引用的地方都可以修改它的值，这会导致安全问题和不可预期的行为。为了避免这种问题，Java 中将 String 设计成了不可变的类，保证了字符串常量的不可修改性，同时也提高了内存使用效率和程序的运行效率。
@@ -30,6 +30,34 @@ int num = 10; Integer numObj = num; // 自动装箱 ​	自动拆箱（Unboxing�
         #theme-toggle,
         .top-link {
             display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
         }
 
     </style>
@@ -96,7 +124,7 @@ int num = 10; Integer numObj = num; // 自动装箱 ​	自动拆箱（Unboxing�
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Hello Friend",
+    "name": "",
     "logo": {
       "@type": "ImageObject",
       "url": "http://WGL0786.github.io/favicon.ico"
@@ -106,10 +134,14 @@ int num = 10; Integer numObj = num; // 自动装箱 ​	自动拆箱（Unboxing�
 </script>
 </head>
 
-<body class=" dark" id="top">
+<body class="" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
         document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
     }
 
 </script>
@@ -117,7 +149,6 @@ int num = 10; Integer numObj = num; // 自动装箱 ​	自动拆箱（Unboxing�
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://WGL0786.github.io/" accesskey="h" title="Hello Friend (Alt + H)">Hello Friend</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -142,16 +173,6 @@ int num = 10; Integer numObj = num; // 自动装箱 ​	自动拆箱（Unboxing�
             </div>
         </div>
         <ul id="menu">
-            <li>
-                <a href="http://WGL0786.github.io/about" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://WGL0786.github.io/showcase" title="Showcase">
-                    <span>Showcase</span>
-                </a>
-            </li>
         </ul>
     </nav>
 </header>
@@ -4500,7 +4521,7 @@ $ git archive
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="http://WGL0786.github.io/">Hello Friend</a></span>
+    <span>&copy; 2023 <a href="http://WGL0786.github.io/"></a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Hello Friend</title>
+    <title>Posts on </title>
     <link>http://WGL0786.github.io/post/</link>
-    <description>Recent content in Posts on Hello Friend</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://WGL0786.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://WGL0786.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://WGL0786.github.io/post/myprofile/</link>
