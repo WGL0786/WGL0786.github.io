@@ -28,34 +28,6 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript><meta property="og:title" content="Java 面经" />
 <meta property="og:description" content="这篇Java面经文章总结了面试中常见的Java问题，并提供了详细的答案和解析，适合准备面试的Java开发者阅读。" />
 <meta property="og:type" content="article" />
@@ -123,10 +95,6 @@
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
     }
 
 </script>
@@ -159,16 +127,6 @@
             </div>
         </div>
         <ul id="menu">
-            <li>
-                <a href="http://WGL0786.github.io/categories/" title="分类">
-                    <span>分类</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://WGL0786.github.io/tags/" title="标签">
-                    <span>标签</span>
-                </a>
-            </li>
             <li>
                 <a href="http://WGL0786.github.io/archives/" title="档案">
                     <span>档案</span>
