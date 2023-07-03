@@ -2,33 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>http://WGL0786.github.io/categories/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/tags/css/</loc>
+    <loc>http://WGL0786.github.io/tags/css/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/posts/first/</loc>
+    <loc>http://WGL0786.github.io/posts/first/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/tags/html/</loc>
+    <loc>http://WGL0786.github.io/tags/html/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>http://WGL0786.github.io/posts/second/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/posts/second/</loc>
+    <loc>http://WGL0786.github.io/posts/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://WGL0786.github.io/tags/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/categories/tech/</loc>
+    <loc>http://WGL0786.github.io/categories/tech/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>http://WGL0786.github.io/</loc>
     <lastmod>2023-06-30T15:22:48+08:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>http://WGL0786.github.io/posts/third/</loc>
+    <lastmod>2023-06-30T15:22:48+08:00</lastmod>
+  </url><url>
+    <loc>http://WGL0786.github.io/archives/</loc>
   </url>
 </urlset>

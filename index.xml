@@ -2,27 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>WGL</title>
-    <link>/</link>
+    <link>http://WGL0786.github.io/</link>
     <description>Recent content on WGL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 15:22:48 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jun 2023 15:22:48 +0800</lastBuildDate><atom:link href="http://WGL0786.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>/posts/first/</link>
+      <link>http://WGL0786.github.io/posts/first/</link>
       <pubDate>Fri, 30 Jun 2023 15:22:48 +0800</pubDate>
       
-      <guid>/posts/first/</guid>
-      <description>This is a heading one This is a heading two This is a paragraph.</description>
+      <guid>http://WGL0786.github.io/posts/first/</guid>
+      <description>简介</description>
     </item>
     
     <item>
-      <title>secone</title>
-      <link>/posts/second/</link>
+      <title>Java 面经</title>
+      <link>http://WGL0786.github.io/posts/second/</link>
       <pubDate>Fri, 30 Jun 2023 15:22:48 +0800</pubDate>
       
-      <guid>/posts/second/</guid>
-      <description>This a second post.</description>
+      <guid>http://WGL0786.github.io/posts/second/</guid>
+      <description>这篇Java面经文章总结了面试中常见的Java问题，并提供了详细的答案和解析，适合准备面试的Java开发者阅读。</description>
+    </item>
+    
+    <item>
+      <title>待更新</title>
+      <link>http://WGL0786.github.io/posts/third/</link>
+      <pubDate>Fri, 30 Jun 2023 15:22:48 +0800</pubDate>
+      
+      <guid>http://WGL0786.github.io/posts/third/</guid>
+      <description>作者正在赶来更新的路上～</description>
     </item>
     
     
