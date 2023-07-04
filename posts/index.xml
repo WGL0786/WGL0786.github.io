@@ -6,23 +6,32 @@
     <description>Recent content in Posts on WGL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://WGL0786.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://WGL0786.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://WGL0786.github.io/posts/first/</link>
+      <link>http://WGL0786.github.io/posts/outline/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://WGL0786.github.io/posts/first/</guid>
+      <guid>http://WGL0786.github.io/posts/outline/</guid>
       <description>记录开发过程中所学到的知识，共同迈向技术峰顶。</description>
     </item>
     
     <item>
       <title>Java 面经</title>
-      <link>http://WGL0786.github.io/posts/second/</link>
+      <link>http://WGL0786.github.io/posts/java/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://WGL0786.github.io/posts/second/</guid>
+      <guid>http://WGL0786.github.io/posts/java/</guid>
       <description>这篇Java面经文章总结了面试中常见的Java问题，并提供了详细的答案和解析，适合准备面试的Java开发者阅读。</description>
+    </item>
+    
+    <item>
+      <title>十大排序算法</title>
+      <link>http://WGL0786.github.io/posts/sort_algorithm/</link>
+      <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://WGL0786.github.io/posts/sort_algorithm/</guid>
+      <description>作者正在赶来更新的路上～</description>
     </item>
     
     <item>
